@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "TencentSDK for iOS."
   s.author       = { "醒来－技术" => "1020166296@qq.com" }
   s.homepage     = "https://github.com/51wakeup/TencentSDK"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/51wakeup/TencentSDK.git", :tag => "#{s.version}" }
   s.source_files = 'Tencent/*.{h,m}'
