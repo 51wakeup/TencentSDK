@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "Spec"
+  s.name         = "TencentSDK"
   s.version      = "0.0.1"
   s.summary      = "TencentSDK for iOS."
   s.author       = { "醒来－技术" => "1020166296@qq.com" }
