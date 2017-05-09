@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TencentHeader.h"
+//#import "TencentHeader.h"
 @interface ViewController ()
 
 @end

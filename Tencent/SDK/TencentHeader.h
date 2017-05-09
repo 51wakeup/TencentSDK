@@ -9,7 +9,6 @@
 #ifndef TencentHeader_h
 #define TencentHeader_h
 
-
 #import <TencentOpenAPI/TencentMessageObject.h>
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/TencentOAuthObject.h>
