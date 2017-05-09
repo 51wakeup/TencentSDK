@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/51wakeup/TencentSDK.git", :tag => "0.0.2" }
-  s.source_files = 'Tencent/SDK/*.{h,m}'
+  #s.source_files = 'Tencent/SDK/*.{h,m}'
   s.resources     = ['Tencent/*.{bundle}']
   # s.vendored_libraries  = 'libWeiboSDK/libWeiboSDK.a'
   s.requires_arc = true
