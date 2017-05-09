@@ -14,7 +14,7 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 #import <TencentOpenAPI/TencentOAuthObject.h>
 #import <TencentOpenAPI/TencentApiInterface.h>
-#import "sdkDef.h"
-#import "QQApiInterface.h"
-#import "QQApiInterfaceObject.h"
+#import <TencentOpenAPI/sdkdef.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/QQApiInterfaceObject.h>
 #endif /* TencentHeader_h */
