@@ -23,6 +23,7 @@
 		3A20DCE91EC0616900AB5B31 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A20DCE81EC0616900AB5B31 /* CoreTelephony.framework */; };
 		3A20DCED1EC1585200AB5B31 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A20DCEB1EC1585200AB5B31 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		3A20DCEE1EC1585200AB5B31 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A20DCEC1EC1585200AB5B31 /* TencentOpenAPI.framework */; };
+		3A20DCF81EC1746D00AB5B31 /* Useless.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20DCF71EC1746D00AB5B31 /* Useless.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		3A20DCEB1EC1585200AB5B31 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		3A20DCEC1EC1585200AB5B31 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		3A20DCF51EC1685000AB5B31 /* TencentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TencentHeader.h; sourceTree = "<group>"; };
+		3A20DCF61EC1746D00AB5B31 /* Useless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Useless.h; sourceTree = "<group>"; };
+		3A20DCF71EC1746D00AB5B31 /* Useless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Useless.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 				3A20DCEB1EC1585200AB5B31 /* TencentOpenApi_IOS_Bundle.bundle */,
 				3A20DCEC1EC1585200AB5B31 /* TencentOpenAPI.framework */,
 				3A20DCF51EC1685000AB5B31 /* TencentHeader.h */,
+				3A20DCF61EC1746D00AB5B31 /* Useless.h */,
+				3A20DCF71EC1746D00AB5B31 /* Useless.m */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A20DCF81EC1746D00AB5B31 /* Useless.m in Sources */,
 				3A20DCAE1EC0600C00AB5B31 /* ViewController.m in Sources */,
 				3A20DCAB1EC0600C00AB5B31 /* AppDelegate.m in Sources */,
 				3A20DCA81EC0600C00AB5B31 /* main.m in Sources */,
