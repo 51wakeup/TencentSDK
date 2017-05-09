@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/51wakeup/TencentSDK.git", :tag => "v1.0.0" }
   s.source_files = 'SDK/*.{h,m}'
-  s.resources    = ['Tencent/SDK/*.{bundle}']
+  s.resources    = ['SDK/*.{bundle}']
   # s.vendored_libraries  = 'libWeiboSDK/libWeiboSDK.a'
   s.requires_arc = true
   s.frameworks   = 'SystemConfiguration', 'Security', 'UIKit', 'Foundation', 'CoreGraphics','CoreTelephony'
   s.libraries = 'sqlite3', 'iconv'
-  s.vendored_frameworks = 'Tencent/SDK/TencentOpenAPI.framework'
+  s.vendored_frameworks = 'SDK/TencentOpenAPI.framework'
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 end
