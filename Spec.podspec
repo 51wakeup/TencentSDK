@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |s|
   s.name         = "Spec"
-  s.version      = "0.0.3"
+  s.version      = "v0.0.3"
   s.summary      = "TencentSDK for iOS."
   s.author       = { "醒来－技术" => "1020166296@qq.com" }
   s.homepage     = "https://github.com/51wakeup/TencentSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/51wakeup/TencentSDK.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/51wakeup/TencentSDK.git", :tag => "v0.0.3" }
   s.source_files = 'Tencent/SDK/*.{h,m}'
   s.resources     = ['Tencent/SDK/*.{bundle}']
   # s.vendored_libraries  = 'libWeiboSDK/libWeiboSDK.a'
